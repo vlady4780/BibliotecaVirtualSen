@@ -1,0 +1,28 @@
+CREATE DATABASE `Bw_Pim`;
+
+USE `Bw_Pim`;
+
+CREATE TABLE `usuarios`(
+`user_id` int(100) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+`User_name` VARCHAR(100) NOT NULL,
+`User_Email` VARCHAR(100) NOT NULL,
+`User_mobile` int(9) NOT NULL,
+`User_Rol` INT(10) NOT NULL
+)ENGINE= InnoDB DEFAULT Charset=utf8;
+
+CREATE TABLE `rol`
+(
+`Cod_Rol` int(10) PRIMARY KEY NOT NULL,
+`Rol` VARCHAR(50) NOT NULL
+)ENGINE= InnoDB DEFAULT Charset=utf8;
+
+CREATE TABLE `proyecto`
+(
+`Cod_Proyecto` INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+`Titulo` VARCHAR(100) NOT NULL,
+`Imagen` VARCHAR(100) NOT NULL,
+`Especialidad` VARCHAR(100) NOT NULL,
+`Autor` VARCHAR(100) NOT NULL,
+`Sede` VARCHAR(50) NOT NULL,
+`Año` INT NOT NULL
+)ENGINE= InnoDB DEFAULT Charset=utf8;

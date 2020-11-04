@@ -203,6 +203,14 @@
             </div>
           </div>
         </div>
+        <table>
+            <tr>
+            <?php foreach($data as $book):?>
+                <td><?php echo $book['Titulo'];?></td>
+            <?php endforeach;?> 
+            </tr>
+        </table>
+       
         <footer class="footer full-reset">
             <div class="container-fluid">
                 <div class="row">

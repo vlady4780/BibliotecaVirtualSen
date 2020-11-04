@@ -17,7 +17,7 @@ Plataforma web dedicada a la publicación de libros, proyectos y curriculums par
 * **jQuery**
 * **Bootstrap**
 
----------------------------------
+-----------------------------------------
 
 ## Jefe de Proyecto
 
@@ -25,14 +25,12 @@ Plataforma web dedicada a la publicación de libros, proyectos y curriculums par
 
 ## Programador(Backend)
 
-* **Vlady Gutierrez**
-* **Vlady Gutierrez**
-* **Vlady Gutierrez**
-* **Vlady Gutierrez**
+* **Jose Dulce**
+* **Russell Alberto Chiclayo Alvarado**
 
 ## Base de Datos
 
-* **Vlady Gutierrez**
+* **Juan Ramirez**
 
 ## Analisis de Sistema
 
@@ -44,12 +42,11 @@ Plataforma web dedicada a la publicación de libros, proyectos y curriculums par
 
 ## Programador(Frontend)
 
-* **Vlady Gutierrez**
-* **Vlady Gutierrez**
-* **Vlady Gutierrez**
+* **Steew Andersson Chara Romero**
+* **Manuel Alonso Colonio Camargo**
+* **Isaac Israel Sanchez Villanueva**
 
 ## Tester
 
-* **Vlady Gutierrez**
 
 [Sistema orientado](https://senatipe.sharepoint.com/sites/innovacion/bv/SitePages/Home.aspx)

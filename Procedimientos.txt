@@ -1,0 +1,40 @@
+DELIMITER $$
+CREATE PROCEDURE `show_users`()
+BEGIN
+    SELECT*FROM usuarios;
+END
+DELIMITER $$
+CREATE PROCEDURE `search_user`(
+    in _user_id int
+)
+BEGIN
+    SELECT*FROM usuarios WHERE user_id LIKE `%`+_user_id+`%`;
+END
+DELIMITER $$
+CREATE PROCEDURE `insert_user`(
+	in _User_name varchar(100),
+	in _User_Email VARCHAR(100),
+	in _User_mobile int(9),
+	in _User_Rol INT(10)
+)
+BEGIN
+	INSERT INTO usuarios(User_name, User_Email,User_mobile,User_Rol) VALUES (_User_name, _User_Email,_User_mobile,_User_Rol);
+END
+DELIMITER $$
+CREATE PROCEDURE `update_user`(
+	in _user_id int,
+	in _User_name varchar(100),
+	in _User_Email VARCHAR(100),
+	in _User_mobile int(9),
+	in _User_Rol INT(10)
+)
+BEGIN
+	UPDATE usuarios SET User_name=_User_name, User_Email=_User_Email, User_mobile=_User_mobile, User_Rol=_User_Rol WHERE user_id=_user_id;
+END
+DELIMITER $$
+CREATE PROCEDURE `delete_user`(
+	in _user_id int
+)
+BEGIN
+	DELETE FROM usuarios WHERE user_id=_user_id;
+END
