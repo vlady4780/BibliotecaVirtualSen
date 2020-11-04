@@ -2,7 +2,7 @@
 
 Plataforma web dedicada a la publicación de libros, proyectos y curriculums para los estudiantes de SENATI.
 
-[Sitio web disponible](https://bibliotecavirtualsen.herokuapp.com/)
+[Sitio web disponible](https://vlady4780.github.io/BibliotecaVirtualSen/)
 
 ## Preview
 
